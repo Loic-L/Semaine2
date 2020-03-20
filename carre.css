@@ -1,0 +1,39 @@
+.carré1{
+    height: 150px;
+    width: 150px;
+    background: red;
+    -ms-transform: rotate(0deg); /* Internet Explorer */
+    -moz-transform: rotate(0deg); /* Firefox */
+    -webkit-transform: rotate(0deg); /* Safari et Chrome */
+    -o-transform: rotate(0deg); /* Opera */
+}
+
+.carré2{
+    height: 150px;
+    width: 150px;
+    background: green;
+    -ms-transform: rotate(0deg); /* Internet Explorer */
+    -moz-transform: rotate(0deg); /* Firefox */
+    -webkit-transform: rotate(0deg); /* Safari et Chrome */
+    -o-transform: rotate(0deg); /* Opera */
+}
+
+.carré3{
+    height: 150px;
+    width: 150px;
+    background: blue;
+    -ms-transform: rotate(0deg); /* Internet Explorer */
+    -moz-transform: rotate(0deg); /* Firefox */
+    -webkit-transform: rotate(0deg); /* Safari et Chrome */
+    -o-transform: rotate(0deg); /* Opera */ 
+}
+
+.carré4{
+    height: 150px;
+    width: 150px;
+    background: yellow;
+    -ms-transform: rotate(0deg); /* Internet Explorer */
+    -moz-transform: rotate(0deg); /* Firefox */
+    -webkit-transform: rotate(0deg); /* Safari et Chrome */
+    -o-transform: rotate(0deg); /* Opera */
+}

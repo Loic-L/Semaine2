@@ -1,0 +1,44 @@
+.carre1
+{
+    border: 2px solid black;
+    height: 80px;
+    width: 150px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+}
+.carre2
+{
+    border: 2px solid red;
+    height: 100px;
+    width: 150px;
+    position: relative;
+    bottom: 10px;
+    left : 150px;
+}
+.carre3
+{
+    border: 2px solid black;
+    height: 100px;
+    width: 180px;
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+}
+.cc1
+{
+    margin: 0px 0px;
+}
+.cc2
+{
+    margin: 10px 30px;
+}
+.cc3
+{
+    margin: 30px 100px;
+}
+.cc4
+{
+    margin: 10px 10px;
+}

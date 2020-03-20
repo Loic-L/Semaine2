@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" href="formulaire2.css">
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    <header>
+        
+        <div class="carré1"></div>
+        <h1>Formulaire d'inscription à une session de jeu de rôle</h1>
+        <br>
+        <hr>
+    </header>
+    
+    <h2><p>Titre de la session</p></h2><br>
+    <p>Texte blablabla</p>
+
+<form>
+    <br> <br>
+    <h3>
+            <label for="civilité">Vous êtes :</label> <br>
+    </h3>         
+        
+             <input type="radio" id="un homme">
+             <label for="un homme">Un homme</label>
+
+             <input type="radio" id="une femme">
+             <label for="une femme">Une femme</label>
+
+             <input type="radio" id="je le garde pour moi">
+             <label for="je le garde pour moi">Je le garde pour moi</label>
+    <br> <br>
+    <h3>
+            <label for="pseudo">Nom / Prénom / Pseudo :</label> <br>
+    </h3> 
+    
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="" />
+            <label for="nom">Prénom :</label>
+            <input type="text" id="nom" name="nom" placeholder="" />
+            <label for="nom">Pseudo* :</label>
+            <input type="text" id="nom" name="nom" placeholder="" />
+    <br> <br>
+    <h3>        
+            <label for="pays">Votre âge : </label>
+    </h3>        
+            <select id="monselect">
+                <option value="valeur0">15-18 ans</option>
+                <option value="valeur1">18-25 ans</option>
+                <option value="valeur2">25-30 ans</option>
+                <option value="valeur3">30-40 ans</option>
+                <option value="valeur4">40-50 ans</option>
+                <option value="valeur5">50 ans et +</option>
+            </select>
+    
+    <br> <br>
+    <h3>
+            <label for="civilité">Vos plateformes vocales :</label> <br>
+    </h3> 
+      
+            <input type="checkbox" id="teamspeak 3">
+            <label for="teamspeak 3">Teamspeak 3</label>
+
+            <input type="checkbox" id="mumble">
+            <label for="mumble">Mumble</label>
+
+            <input type="checkbox" id="discord">
+            <label for="discord">Discord</label>
+
+            <input type="checkbox" id="skype">
+            <label for="skype">Skype</label>
+            
+            <input type="checkbox" id="autre">
+            <label for="autre">Autre :</label>
+            <input type="text" id="autre" name="autre" placeholder="(Préscisez)"/>
+    <br> <br>
+    <h3>
+            <label for="expériences">Vos expériences passées dans le jeu de rôle :</label> <br>
+    </h3>         
+                
+       <fieldset>
+        <legend>Mon passé de rôlliste</legend>
+        
+        <input type="radio" id="jamais">
+        <label for="jamais">Je n'ai jamais fait de jeux de rôles</label>
+
+        <input type="radio" id="une fois">
+        <label for="ue fois">J'ai déjà eu l'occasion une fois de faire un jeu de rôle</label>
+
+        <input type="radio" id="amateur">
+        <label for="amateur">Je suis amateur de jeux de rôles</label>
+
+        <input type="radio" id="confirmé">
+        <label for="confirmé">Je suis un joueur confirmé</label>
+
+        <input type="radio" id="habitué">
+        <label for="habitué">Je suis habitué a faire des sessions de jeux de rôles</label>
+
+       </fieldset>
+    <br> <br>
+    <h3>
+            <label for="disponibilités">Vos disponibilités :</label> <br>
+    </h3>
+
+            <select size="5">
+              <optgroup label="Semaine">
+              <option>-Je suis disponible un jour par semaine</option>
+              <option>-Je suis disponible 2 à 5 jours par semaine</option>
+              <option>-Je suis disponible chaque jour de la semaine</option>
+              </optgroup>
+            </select>  
+            <select size="5">
+              <optgroup label="Mois">
+              <option>-Je suis disponible une semaine par mois</option>
+              <option>-Je suis disponible 2 à 3 semaines par mois</option>
+              <option>-Je suis disponible chaque semaine</option>
+              </optgroup>
+            </select>  
+            <select size="5">  
+              <optgroup label="Année">
+              <option>-Je suis disponible pendant les vacances</option>
+              <option>-Je suis disponible les 6 premiers mois de l'année</option>
+              <option>-Je suis disponible les 6 derniers mois de l'année</option>
+              <option>-Je suis disponible toute l'année</option>
+              </optgroup>
+            </select>
+    <br><br>
+            <button id="valider" type="submit">Envoyer le formulaire</button>
+            <button id="valider" type="reset">Réinitialiser le formulaire</button>         
+
+</form>        
+
+</body>
+</html>

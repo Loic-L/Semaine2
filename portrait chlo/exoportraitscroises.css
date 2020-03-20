@@ -1,0 +1,52 @@
+body
+{
+    text-align: center;
+}
+h1
+{
+    height: auto;
+    width: 300px;
+    text-align: center;
+    background-color: mediumvioletred;
+    box-shadow: 10px 5px 5px palevioletred;
+    margin: auto;
+    width: 300px;
+    color: white;
+}
+h2
+{
+    color: pink;
+    text-decoration: underline;
+    font-style: italic;
+}
+h3
+{
+    color: hotpink;
+
+}
+.competences
+{
+    table-layout: fixed;
+    width: 60%;
+    border: 1px solid mediumvioletred;
+    text-align: center;
+    font-size: large;
+    margin: auto;
+    width: 300px;
+}
+tr, td
+{
+    border: solid;
+    text-align: center;
+}
+td
+{
+    border: 1px solid palevioletred;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+span
+{
+    text-align: center;
+}

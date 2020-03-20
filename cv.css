@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    background-color: darkgrey;
+}
+
+h2 {
+    text-align: center;
+    background-color: darkgrey;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+hr {
+    border-top: 15px solid darkblue;
+    scrollbar-shadow-color: darkgray;
+}

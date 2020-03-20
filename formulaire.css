@@ -1,0 +1,7 @@
+select option {
+    width:220px;
+  }
+
+fieldset option {
+    width:150px;
+}  

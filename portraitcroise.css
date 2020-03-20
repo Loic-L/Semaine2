@@ -1,0 +1,24 @@
+h2 {
+   text-align: center; /* centré */
+   color: burlywood;
+   background-color: brown;
+}
+
+h1 {
+    text-align: center; /* centré */
+    background-color: blueviolet;
+}
+
+span {
+    text-align: center; /* centré */
+}
+
+hr {
+    border: 10px solid darkblue;
+  border-radius: 5px;
+}
+
+h3 {
+    font-family: fantasy;
+    
+}

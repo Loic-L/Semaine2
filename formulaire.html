@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" href="formulaire.css">
+    <title>Document</title>
+</head>
+<body>
+            
+    <form>
+
+        <label for="nom">Nom</label> <br>
+        <input type="text" id="nom" name="nom" placeholder="Mettez votre nom" /> <br>
+        <label for="email">Email</label> <br>
+        <input type="email" id="email" name="email" placeholder="Renseignez votre e-mail" /> <br>
+        <label for="password">Password</label> <br>
+        <input type="password" id="password" name="password" placeholder="Tapez votre mot de passe" /> <br>
+        <label for="message">Message</label> <br>
+        <textarea name="message" id="message" cols="60" rows="10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa aut illo ut, autem praesentium iure molestiae harum quae aliquam delectus perferendis nihil a tempora ullam nesciunt ex? Magni, eligendi reprehenderit.</textarea> <br> <br>
+        <h2>Menu</h2>
+        <h3>Choix des plats</h3>
+        <select size="10">
+            <optgroup label="Entrée">
+                <option>Entrée 1 - Composition de l'entrée 1</option>
+                <option>Entrée 2 - Composition de l'entrée 2</option>
+                <option>Entrée 3 - Composition de l'entrée 3</option>
+            </optgroup>
+            <optgroup label="Plat">
+                <option>Plat 1 - Composition du plat 1</option>
+                <option>Plat 2 - Composition du plat 2</option>
+                <option>Plat 3 - Composition du plat 3</option>
+            </optgroup>
+            <optgroup label="Dessert">
+                <option>Dessert 1 - Composition du dessert 1</option>
+                <option>Dessert 2 - Composition du dessert 2</option>
+                <option>Dessert 3 - Composition du dessert 3</option>
+            </optgroup>
+        </select>
+         
+        <fieldset>
+             <ul>
+               <li>
+                  <label for="italie">Italie</label>
+                  <input type="checkbox" id="italie" name="italie" value="italie" checked>
+               </li>
+               <li>
+                <label for="france">France</label>
+                <input type="checkbox" id="france" name="france" value="france">
+             </li>
+             <li>
+                <label for="senegal">Senegal</label>
+                <input type="checkbox" id="senegal" name="senegal" value="senegal">
+             </li>
+             <li>
+                <label for="Canada">Canada</label>
+                <input type="checkbox" id="canada" name="canada" value="canada">
+             </li>
+             <li>
+                <label for="Nouvelle-Zélande">Nouvelle-Zélande</label>
+                <input type="checkbox" id="nouvelle-zélande" name="nouvelle-zélande" value="nouvelle-zélande">
+             </li>
+            </ul>
+
+
+        </fieldset>
+
+        <fieldset>
+             <legend>Pays</legend>
+             
+             <input type="radio" id="japon">
+             <label for="japon">Japon</label>
+
+             <input type="radio" id="chine">
+             <label for="chine">Japon</label>
+
+             <input type="radio" id="france">
+             <label for="france">Japon</label>
+
+        </fieldset>
+
+    </form>    
+    
+    <a href="portraitcroise.html">Portrait croisé</a>
+    <a href="cv.html">CV</a>
+</body>
+</html>
